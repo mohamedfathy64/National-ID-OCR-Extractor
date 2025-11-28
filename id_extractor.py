@@ -7,7 +7,7 @@ import os
 # --- Configuration ---
 # IMPORTANT: Replace "YOUR_API_KEY_HERE" with your actual API key.
 # You can get a key from Google AI Studio.
-API_KEY = "AIzaSyDG1bvjIiJHqJAkGgaUXBSFHsOZLwXOSLI" 
+API_KEY = "PUT_YOUR_API_KEY_HERE" 
 API_URL_TEMPLATE = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
 MODEL_NAME = "gemini-2.5-flash-preview-09-2025"
 
@@ -167,4 +167,5 @@ if __name__ == "__main__":
         else:
             print("\n❌ Failed to extract the 14-digit National ID.")
             
+
         print("--- Extraction Complete ---")
